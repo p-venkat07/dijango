@@ -2,9 +2,11 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/GLUG/Glug" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/GLUGWebsite" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/GLUGWebsite/glug" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Glug" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/glug" vcs="Git" />
   </component>
 </project>

@@ -3,8 +3,9 @@ from django.contrib import messages
 from django.contrib.auth.models import User,auth
 from django.contrib.auth import login,logout,authenticate
 from django.db.models.query import QuerySet
-from .models import listOfProject
+from .models import listOfProject,MilestoneObjects
 from GLUG.models import Project
+from accounts.models import MilestoneObjects
 # Create your views here.
 
 def login_request(request):
@@ -45,4 +46,6 @@ def project_request(request):
                 ps.append(p.values('name'))
             print(ps)
         return render(request,"Project_page.html",{'ps':ps})
-    
+
+def milestoneobjects(request):
+    return render(request,"projectdetails.html")
